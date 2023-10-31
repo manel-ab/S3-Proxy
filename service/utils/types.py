@@ -1,7 +1,7 @@
 """Types for the service"""
 from typing import TypedDict, Literal
 
-type _statusCode = Literal[200, 422, 500]
+type _statusCode = Literal[201, 422, 500]
 type _ObjectUrl = str
 type _Message = str
 

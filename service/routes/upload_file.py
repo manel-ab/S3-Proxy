@@ -39,6 +39,6 @@ async def upload_file(
         file_name,
     )
     return {
-        "statusCode": 200,
+        "statusCode": 201,
         "body": {"url": f"https://{storage_name}.s3.amazonaws.com/{file_name}"},
     }
