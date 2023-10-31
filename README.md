@@ -15,8 +15,14 @@ sudo apt install python3.12
 sudo apt install python3.12-venv
 python3.12 -m venv .venv
 source .venv/bin/activate
-npm install -g pyright
 pip install -r requirements.txt
+```
+
+# Dev requirements
+
+```bash
+npm install -g pyright
+pip install -r dev_requirements.txt
 ```
 
 # Execution
