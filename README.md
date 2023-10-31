@@ -2,7 +2,7 @@
 
 -Using python3.12
 
--Set your own credentials to S3 (example in .env.example)
+-Set your own credentials of AWS (example in .env.example)
 
 ```bash
 touch .env
