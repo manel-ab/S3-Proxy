@@ -8,3 +8,4 @@ def check_s3_bucket_exists(*, s3_client, bucket_name: str) -> bool:
         return True
     except s3_client.exceptions.ClientError:
         return False
+    return False
